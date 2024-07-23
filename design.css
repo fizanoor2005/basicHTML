@@ -1,0 +1,62 @@
+body{
+   margin: 0;
+    padding: 0px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+.navbar{
+   background-color:green;
+}
+.navdiv{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+li{
+  
+    display: inline-block;
+    
+}
+li a{
+    list-style-type:none;
+    text-decoration: none;
+    margin-right: 25px;
+    font-size: 18px;
+    color: white;
+
+}
+.logo{
+    font-size: 50px;
+}
+button{
+    background-color: lightgreen;
+    
+    margin-left: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+button a{
+    font-weight: bold;
+    color: white;
+    list-style-type: none;
+    text-decoration: none;
+}
+footer{
+   
+    text-align: center;
+    background-color: green;
+    color: white;
+    padding: 20px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+}
+.navbar :hover{
+    color: rgb(255, 127, 127);
+}
+ 

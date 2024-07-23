@@ -1,0 +1,53 @@
+body{
+    margin: 0%;
+    background-image:url("codding.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+div{
+    border-radius: 25px;
+    background: #d51d1d; ;
+    padding: 20px;
+    width:200px ;
+    height: 150px;
+    display: inline-block;
+}
+#box1
+{
+    background-color: rgba(106, 180, 180, 0.852);
+}
+#box2
+{
+    background-color: rgba(0, 255, 42, 0.546);
+}
+#box3
+{
+    background-color: #e50f0fba;
+}
+
+
+ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    background-color: rgb(122, 60, 160);
+    font-size: 18px;
+}
+li{
+    float: left;
+}
+li a{
+    display: block;
+    padding: 17px;
+    color:white;
+    text-align: left;
+    text-decoration: none;
+}
+h1{
+    text-align: center;
+    color: rgb(66, 227, 17);
+}
+ul a:hover{
+    background-color: rgb(95, 95, 179);
+}

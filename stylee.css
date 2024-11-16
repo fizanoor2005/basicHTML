@@ -4,10 +4,10 @@ body{
 
 
 }
-form{
+/* form{
     text-align: center;
     
-}
+} */
 h3{
     text-align: center;
 }
@@ -15,12 +15,13 @@ ul {
     list-style-type: none;
     padding: 0px;
     margin: 0px;
-    overflow: hidden;
+    /* overflow: hidden; */
     background-color:#B80000;
     font-size: 18px;
 }
 li{
     float: left;
+    border-right: 1px solid black;
 }
 li a{
     display: block;
